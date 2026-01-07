@@ -147,13 +147,34 @@ HIGHLIGHTS
 
 .highlight__wrapper {
     display: flex;
+    gap: 24px;
  }
 
 
 .highlight {
-    padding: 0 24px;
+    padding: 16px 24px;
     width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.highlight__img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: rgba(0, 255, 255, 0.15);
+    color: aqua;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 12px;
+}
+.highlight__subtitle {
+    font-size: 20px;
+    margin: 8px 0;
+}
+.highlight__para {
+    line-height: 1.6;
 }
