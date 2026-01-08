@@ -329,15 +329,8 @@ FEATURES
         max-width: 1200px;
         margin: 0 auto;
     }
-
-    #latest .book__price--normal {
-        padding-right: 6px;
-    }
+    
 
     
-    #latest .book__ratings {
-         margin-bottom: 8px;
-         color: #fabf2a;
-    }
 
  
