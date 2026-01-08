@@ -283,6 +283,35 @@ FEATURES
       padding-right: 6px;
       color: #bfbfbf;
     }
+   /* Latest Books tighter spacing */
+
+    #latest .books {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 8px;
+     }
+
+     #latest .book {
+        width: auto;
+        padding: 8px;
+     }
+
+     #latest .book__img--wrapper {
+        margin-bottom: 6px;
+     }
+
+    #latest .book__title {
+         margin-bottom: 6px;
+    }
+     
+    #latest .book__ratings {
+         margin-bottom: 6px;
+    }
+
+    #latest .book__price--normal {
+        padding-right: 6px;
+    }
 
    
 
+ 
