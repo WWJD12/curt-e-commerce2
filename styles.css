@@ -141,6 +141,8 @@ button:active {
 
 .container {
    padding: 56px 0;
+  
+   
 }
 
 .row {
@@ -239,6 +241,8 @@ FEATURES
 
 .books {
     display: flex;
+    
+    
 }
 
 .book {
@@ -253,7 +257,7 @@ FEATURES
 }
 
 .book__img--wrapper {
-    margin-bottom: 8px;
+    margin-bottom: 2px;
     border-radius: 4px;
     overflow: hidden;
     display: flex;
@@ -265,7 +269,8 @@ FEATURES
 
 .book__title {
     font-size: 20px;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
+   
 }
 
 .book__title:hover {
@@ -285,8 +290,17 @@ FEATURES
     }
    /* Latest Books tighter spacing */
 
-  
+   
+    #container {
+    padding: 56px 0;
+    }
 
+    #row {
+        width: 100%;
+        max-width: 1200px;
+        margin: o auto;
+    }
+   
     #latest .books {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -310,25 +324,29 @@ FEATURES
         margin-bottom: 8px;
          
     }
+    
+     #latest .section--title {
+        margin: 32px;
+    }
+
+   #latest .book--price__normal {
+        text-decoration: none;
+    }
+
+   
      
 
     
 
-   /*
+  
 
-   latest 
+    
+    
+  
 
-   */
 
-    #container {
-    padding: 56px 0;
-    }
+    
 
-    #row {
-        width: 100%;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
     
 
     
