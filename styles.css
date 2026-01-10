@@ -519,6 +519,9 @@ FEATURES
         display: block;
     }
 
+
+
+
     .highlight {
        width: 100%; 
        
@@ -527,6 +530,7 @@ FEATURES
     .highlight:not(:last-child) {
         margin-bottom: 24px;
     }
+} 
        
 
 
