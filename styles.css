@@ -240,6 +240,7 @@ HIGHLIGHTS
 #highlights {
     position: relative;
     max-width: 100vw;
+    padding-top: 312px
    
 }
 
@@ -272,6 +273,7 @@ HIGHLIGHTS
 .highlight__wrapper {
     display: flex;
     flex-wrap: wrap;
+   
     
  }
 
@@ -542,6 +544,13 @@ FEATURES
         display: block;
 
         
+    }
+
+    #highlights {
+        position: relative;
+    max-width: 100vw;
+    padding-top: 312px
+   
     }
        
     .highlight {
