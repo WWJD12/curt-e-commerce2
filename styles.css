@@ -217,7 +217,7 @@ button:active {
 }
 
 .container {
-    padding: 56px 0;
+    padding: 68px 0;
     }
 
 .row {
@@ -240,7 +240,7 @@ HIGHLIGHTS
 #highlights {
     position: relative;
     max-width: 100vw;
-    padding-top: 28vw;
+   
 }
 
 #highlights:after,
@@ -330,7 +330,7 @@ FEATURES
 
 .book {
     width: 25%;
-    padding: 24px;
+     padding: 24px;
 }
 
 .book__img {
@@ -346,8 +346,7 @@ FEATURES
     border-radius: 4px;
     overflow: hidden;
     display: flex;
-    height: 370px;
-    align-items: center;
+  align-items: center;
     justify-content: center;
 }
 
@@ -519,9 +518,18 @@ FEATURES
             gap: 8px;
         }
 
-        
+        .container {
+            padding: 56px 0;
+    
+    }
 
-  }
+    
+    
+    
+   
+}
+
+        
 
   /* SMALL PHONES, LARGE SMARTPHONES */
 
@@ -532,15 +540,14 @@ FEATURES
         }
        .btn__menu {
         display: block;
+
+        
     }
-
-
-
-
-    .highlight {
-       width: 100%; 
        
+    .highlight {
+        padding: 56px 0;
     }
+
 
     .highlight:not(:last-child) {
         margin-bottom: 24px;
