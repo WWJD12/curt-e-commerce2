@@ -141,19 +141,18 @@ button:active {
 
 .container {
     padding: 56px 0;
-    
-  
-   
-}
+    }
 
 .row {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    }
+
+    .no-cursor {
+        cursor: not-allowed;
+    }
     
-  
-    
-}
 
 /*
 
@@ -349,6 +348,39 @@ FEATURES
         
     }
 
+    /* 
+    
+    EXPLORE 
+
+    */
+
+    .container {
+         text-align: center;
+        
+    }
+
+     h2 {
+   font-size: 32px;
+   margin-bottom: 32px;
+   text-align: center;
+}
+
+
+    /* 
+    
+    FOOTER
+
+    */
+
+    .footer {
+        background-color: #242424;
+    }
+
+    
+
+
+
+
    
      
 
@@ -367,4 +399,3 @@ FEATURES
 
     
 
- 
