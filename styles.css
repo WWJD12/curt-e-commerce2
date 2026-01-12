@@ -217,7 +217,7 @@ button:active {
 }
 
 .container {
-    padding: 68px 0;
+    padding: 56px 0;
     }
 
 .row {
@@ -240,7 +240,7 @@ HIGHLIGHTS
 #highlights {
     position: relative;
     max-width: 100vw;
-    padding-top: 312px
+   
    
 }
 
@@ -520,8 +520,7 @@ FEATURES
             gap: 8px;
         }
 
-        .container {
-            padding: 56px 0;
+       
     
     }
 
@@ -529,7 +528,7 @@ FEATURES
     
     
    
-}
+
 
         
 
@@ -548,14 +547,21 @@ FEATURES
 
     #highlights {
         position: relative;
-    max-width: 100vw;
-    padding-top: 312px
-   
-    }
+        max-width: 100vh;
        
-    .highlight {
-        padding: 56px 0;
+   
+}
+       
+    .highlight__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
     }
+        
+    
+        
+
 
 
     .highlight:not(:last-child) {
